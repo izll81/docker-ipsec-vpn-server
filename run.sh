@@ -99,6 +99,7 @@ if [ ! -f /etc/ipsec.secrets ]; then
   cat > /etc/ipsec.secrets <<EOF
 
 EOF
+fi
 
 # Update sysctl settings
 syt='/sbin/sysctl -e -q -w'
