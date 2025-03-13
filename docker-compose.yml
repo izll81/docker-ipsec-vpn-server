@@ -18,5 +18,5 @@ services:
     volumes:
       - ikev2-vpn-data:/etc/ipsec.d
       - /lib/modules:/lib/modules:ro
-      - /bases/.system/ikev2-vpn/ipsec-secrets:/etc/ipsec.secrets
+      - /bases/.system/ikev2-vpn/ipsec.secrets:/etc/ipsec.secrets
       - /bases/.system/ikev2-vpn/plandoc.conf:/etc/ipsec.d/plandoc.conf
