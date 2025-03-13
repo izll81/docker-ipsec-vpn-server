@@ -5,7 +5,8 @@ volumes:
 
 services:
   vpn:
-    image: hwdsl2/ipsec-vpn-server
+    build:
+      context: .
     restart: always
     ports:
       - "500:500/udp"
