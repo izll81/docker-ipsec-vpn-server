@@ -20,4 +20,4 @@ services:
       - /bases/.system/ikev2-vpn/ipsec.secrets:/etc/ipsec.secrets
       - /bases/.system/ikev2-vpn/plandoc.conf:/etc/ipsec.d/plandoc.conf
       - /bases/.system/ikev2-vpn/entrypoint.sh:/etc/ipsec/entrypoint.sh
-    
+    entrypoint: ["/etc/ipsec/entrypoint.sh"]
